@@ -1,4 +1,4 @@
-Question : 
+Question : https://www.hackerrank.com/challenges/designer-door-mat/problem
 
 #take rows and columns and convert both of them to integer using map function 
 rows,columns = map(int,input().split())
