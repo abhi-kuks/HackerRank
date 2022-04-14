@@ -1,0 +1,10 @@
+Question : https://www.hackerrank.com/challenges/the-pads/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
+
+
+
+
+Solution : 
+select concat(Name , case when occupation = 'Doctor' then "(D)" when occupation = 'Actor' then "(A)" when occupation = 'Singer' then "(S)" when occupation = 'Professor' then "(P)" End) 
+from OCCUPATIONS order by name ;
+Select "There are a total of " , count(occupation), concat(lower(occupation),"s.")
+from occupations group by occupation order by count(occupation) asc,occupation asc ;
